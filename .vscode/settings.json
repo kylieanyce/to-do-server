@@ -6,4 +6,12 @@
     "python.linting.pylintArgs": [
         "--django-settings-module=todo.settings",
     ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "todo",
+            "database": "db.sqlite3"
+        }
+    ],
 }
