@@ -6,7 +6,7 @@
             "title": "Mop the floors",
             "description": null,
             "user": 1,
-            "weekday": 1
+            "weekday": [1]
         }
     }
 ]

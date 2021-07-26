@@ -6,7 +6,7 @@ from django.db.models.deletion import CASCADE
 
 class Chore(models.Model):
     title = models.CharField(max_length=50)
-    description = models.CharField(max_length=250)
+    description = models.CharField(blank=True, null=True, max_length=250)
     user = models.ForeignKey(User, on_delete=CASCADE)
     weekday = models.ManyToManyField(
         "Weekday", through="ChoreDay", related_name="weekday")
