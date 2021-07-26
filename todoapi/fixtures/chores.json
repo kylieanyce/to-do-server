@@ -1,0 +1,12 @@
+[
+    {
+        "model": "todoapi.chore",
+        "pk": 1,
+        "fields": {
+            "title": "Mop the floors",
+            "description": null,
+            "user": 1,
+            "weekday": [1]
+        }
+    }
+]
